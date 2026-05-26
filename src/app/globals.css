@@ -1,0 +1,26 @@
+ @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #000000;
+  --foreground: #ffffff;
+  --gold: #D4AF37;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background: black;
+  color: white;
+  overflow-x: hidden;
+}
+
+body {
+  min-height: 100vh;
+}
