@@ -27,7 +27,7 @@ export default function CheckoutPage() {
   const params = useParams();
   const id = params.id as string;
 
-  const vehicle = vehicles[id];
+const vehicle = vehicles[params.id as keyof typeof vehicles];
 
   if (!vehicle) {
     return (
